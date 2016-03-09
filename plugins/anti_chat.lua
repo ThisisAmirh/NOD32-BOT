@@ -27,7 +27,7 @@ local function cron()
 end
 return {
   patterns = {
-    "([\216-\219][\128-\191])"
+    "^(.*)"
     },
   run = run,
 	cron = cron
